@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('arrival_station', 50);
             $table->dateTime('departure_time');
             $table->dateTime('arrival_time');
+            $table->decimal('price', 5, 2);
             $table->string('train_code', 100);
             $table->tinyInteger('number_of_carriages')->unsigned();
             $table->time('on_time')->nullable();
