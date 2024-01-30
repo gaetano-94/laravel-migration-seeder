@@ -4,6 +4,20 @@
 //Includere l'immagine come background-image
 // background-image: url("../img/logo.jpg");
 
-ul {
-    list-style-type: none;
+body {
+    background-color: lightcoral;
+
+    h1 {
+        color: blue;
+        text-transform: uppercase;
+    }
+
+    .card {
+        background-color: yellow;
+        border: 2px solid black;
+    }
+
+    ul {
+        list-style-type: none;
+    }
 }
